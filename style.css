@@ -21,7 +21,8 @@ body {
 
 .container {
   max-width: 110rem;
-  margin: 6rem auto;
+  margin: 4rem auto;
+  padding: 2rem;
 }
 
 .main-grid {
@@ -79,9 +80,9 @@ body {
 .card-f-number {
   position: relative;
   bottom: 53%;
-  left: -5%;
+  left: -9%;
   font-size: 3.2rem;
-  width: 34rem;
+  max-width: 38rem;
   overflow: hidden;
 }
 
@@ -174,7 +175,7 @@ input {
 
 @media (max-width: 63em) {
   html {
-    font-size: 54.5%;
+    font-size: 52.5%;
   }
 
   body {
@@ -190,6 +191,7 @@ input {
 
   .container {
     max-width: 60rem;
+    margin: 6rem auto;
   }
 
   .card-f-number {
@@ -204,7 +206,7 @@ input {
 
   .card-front {
     order: 2;
-    margin-top: -11rem;
+    margin-top: -10rem;
   }
 
   .card-f-date {
